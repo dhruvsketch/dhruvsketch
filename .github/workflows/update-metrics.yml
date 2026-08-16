@@ -26,6 +26,7 @@ jobs:
       - name: Pull real GitHub data and regenerate sections
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USERNAME: ${{ github.repository_owner }}
         run: python .github/scripts/uptime.py
 
       - name: Commit changes if anything updated
