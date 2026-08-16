@@ -51,36 +51,14 @@
 
 Real commit activity by hour (IST), pulled from public push events and refreshed daily by a scheduled GitHub Action — not static numbers.
 
-<!--CODING-CLOCK:START-->
+<!--START_SECTION:owl-->
 ```text
-Most active around 23:00 IST (based on last 12 public pushes)
-
-00:00    0
-01:00    0
-02:00    0
-03:00    0
-04:00    0
-05:00    0
-06:00    0
-07:00    0
-08:00    0
-09:00    0
-10:00    0
-11:00    0
-12:00    0
-13:00    0
-14:00    0
-15:00    0
-16:00  █████  2
-17:00    0
-18:00    0
-19:00    0
-20:00    0
-21:00    0
-22:00  ███  1
-23:00  ████████████████████████  9
+🌞 Morning    249 commits     ██████░░░░░░░░░░░░░░░░░░░   24.90%
+🌆 Daytime    279 commits     ███████░░░░░░░░░░░░░░░░░░   27.90%
+🌃 Evening    387 commits     ██████████░░░░░░░░░░░░░░░   38.70%
+🌙 Night       85 commits     ██░░░░░░░░░░░░░░░░░░░░░░░   8.50%
 ```
-<!--CODING-CLOCK:END-->
+<!--END_SECTION:owl-->
 
 <br/>
 
