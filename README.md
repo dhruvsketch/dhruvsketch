@@ -4,9 +4,9 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="./assets/header-light.svg">
-    <img alt="Animated Bio Header" src="./assets/header-light.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/typing-light.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/typing-dark.svg">
+    <img alt="Animated Bio Header" src="./assets/typing-light.svg">
   </picture>
 </p>
 
