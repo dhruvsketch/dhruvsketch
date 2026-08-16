@@ -3,7 +3,11 @@
 </p>
 
 <p align="center">
-  <img src="./assets/typing.svg" alt="Animated typing text cycling through: Digital Marketer, Bridging AI and Business, Boring ideas just need better branding." width="560" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/header-light.svg">
+    <img alt="Animated Bio Header" src="./assets/header-light.svg">
+  </picture>
 </p>
 
 <br/>
