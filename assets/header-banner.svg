@@ -1,0 +1,58 @@
+<svg viewBox="0 0 1000 420" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .cmd   { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; font-size: 17px; fill: #e6edf3; }
+      .pfx   { fill: #7ee787; }
+      .out   { fill: #8b949e; font-family: 'SFMono-Regular', Consolas, monospace; font-size: 16px; }
+      .tab   { font-family: -apple-system, 'Segoe UI', Ubuntu, sans-serif; font-size: 13px; fill: #8b949e; }
+    </style>
+  </defs>
+
+  <rect width="1000" height="420" fill="#0d1117"/>
+
+  <!-- terminal card -->
+  <rect x="40" y="30" width="920" height="360" rx="10" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+
+  <!-- title bar -->
+  <path d="M40,40 a10,10 0 0 1 10,-10 h880 a10,10 0 0 1 10,10 v26 h-900 z" fill="#161b22"/>
+  <line x1="40" y1="66" x2="960" y2="66" stroke="#30363d" stroke-width="1"/>
+  <circle cx="66" cy="53" r="5.5" fill="#f85149"/>
+  <circle cx="86" cy="53" r="5.5" fill="#d29922"/>
+  <circle cx="106" cy="53" r="5.5" fill="#3fb950"/>
+  <text x="500" y="57" text-anchor="middle" class="tab">dhruv@github:~</text>
+
+  <!-- boot log, each line fades in once and stays (fill="freeze") -->
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.2s" dur="0.4s" fill="freeze"/>
+    <text x="72" y="106" class="cmd"><tspan class="pfx">$ </tspan>whoami</text>
+  </g>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.6s" dur="0.4s" fill="freeze"/>
+    <text x="72" y="134" class="out">  Dhruv Jha</text>
+  </g>
+
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.15s" dur="0.4s" fill="freeze"/>
+    <text x="72" y="176" class="cmd"><tspan class="pfx">$ </tspan>status --current</text>
+  </g>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.55s" dur="0.4s" fill="freeze"/>
+    <text x="72" y="204" class="out">  BBA · Digital Marketing student</text>
+  </g>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.9s" dur="0.4s" fill="freeze"/>
+    <text x="72" y="230" class="out">  focus: AI automation · UI/UX · web development</text>
+  </g>
+
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="2.45s" dur="0.4s" fill="freeze"/>
+    <text x="72" y="272" class="cmd"><tspan class="pfx">$ </tspan>mission</text>
+  </g>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="2.85s" dur="0.4s" fill="freeze"/>
+    <text x="72" y="300" class="out">  bridging the gap between AI and business</text>
+  </g>
+
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="3.4s" dur="0.4s" fill="freeze"/>
+    <text x="72" y="342" class="cmd"><tspan class="pfx">$ </tspan></text>
+    <rect x="90" y="330" width="10" height="18" fill="#7ee787">
+      <animate attributeName="opacity" values="1;0;1" dur="1s" begin="3.8s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- bottom accent -->
+  <rect x="40" y="389" width="920" height="1" fill="#21262d"/>
+</svg>

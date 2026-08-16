@@ -1,0 +1,30 @@
+<svg width="100%" viewBox="0 0 1000 320" xmlns="http://www.w3.org/2000/svg"
+     role="img" aria-label="Terminal window showing a boot sequence: whoami returns Dhruv Jha, a status scan flags boring ideas and applies branding, then deploys the solution: Dhruv Jha, with the line 'every boring idea just needs better branding.'">
+  <rect width="1000" height="320" rx="10" fill="#F6F2EA"/>
+  <rect x="0" y="0" width="1000" height="320" rx="10" fill="none" stroke="#1B1B1B" stroke-width="1.5"/>
+
+  <!-- title bar -->
+  <rect x="0" y="0" width="1000" height="44" rx="10" fill="#1B1B1B"/>
+  <rect x="0" y="30" width="1000" height="14" fill="#1B1B1B"/>
+  <circle cx="30" cy="22" r="6" fill="#F6F2EA"/>
+  <circle cx="52" cy="22" r="6" fill="#00D9A3"/>
+  <circle cx="74" cy="22" r="6" fill="#F6F2EA" fill-opacity="0.35"/>
+  <text x="500" y="27" text-anchor="middle" font-family="Menlo, Consolas, 'Courier New', monospace"
+        font-size="13" fill="#F6F2EA" opacity="0.8">dhruv@rebrand — /solutions</text>
+
+  <!-- terminal body -->
+  <text font-family="Menlo, Consolas, 'Courier New', monospace" font-size="16" fill="#1B1B1B">
+    <tspan x="40" y="90"><tspan fill="#00D9A3">$</tspan> whoami</tspan>
+    <tspan x="40" y="116">&gt; Dhruv Jha</tspan>
+
+    <tspan x="40" y="156"><tspan fill="#00D9A3">$</tspan> status --scan</tspan>
+    <tspan x="40" y="182">&gt; scanning boring ideas... found 1</tspan>
+    <tspan x="40" y="204">&gt; ideas.boring = true</tspan>
+    <tspan x="40" y="226">&gt; branding.applied = true</tspan>
+
+    <tspan x="40" y="266"><tspan fill="#00D9A3">$</tspan> solution --deploy</tspan>
+    <tspan x="40" y="292">&gt; deployed: "every boring idea just needs better branding."</tspan>
+  </text>
+
+  <rect x="880" y="278" width="12" height="18" fill="#00D9A3"/>
+</svg>

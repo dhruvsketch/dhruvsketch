@@ -1,0 +1,8 @@
+<svg width="100%" viewBox="0 0 500 90" xmlns="http://www.w3.org/2000/svg"
+     role="img" aria-label="GitHub stats card, not yet populated — fills in after the first scheduled workflow run.">
+  <rect width="500" height="90" rx="8" fill="#F6F2EA" stroke="#1B1B1B" stroke-width="1"/>
+  <text x="30" y="34" font-family="Georgia, serif" font-size="16" fill="#1B1B1B">Repo Stats</text>
+  <text x="30" y="60" font-family="Menlo, Consolas, monospace" font-size="13" fill="#1B1B1B" opacity="0.7">
+    Populates automatically after the first scheduled Action run.
+  </text>
+</svg>

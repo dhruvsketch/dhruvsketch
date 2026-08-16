@@ -1,0 +1,37 @@
+name: Update coding clock & stats
+
+# Runs automatically every day at 03:00 UTC (~08:30 IST), and can also be
+# triggered manually from the Actions tab. This will NOT run at all until
+# Actions are enabled for this repository.
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Pull real GitHub data and regenerate sections
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/update_metrics.py
+
+      - name: Commit changes if anything updated
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md assets/stats.svg
+          git diff --cached --quiet || git commit -m "chore: update coding clock & stats [automated]"
+          git push
