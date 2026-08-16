@@ -1,0 +1,37 @@
+name: Generate Snake Animation
+
+on:
+  schedule:
+    - cron: "0 0 * * *"     # runs once a day
+  workflow_dispatch: {}
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      # Step 1: Check out repository code so git history exists
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # Step 2: Generate the SVGs into assets/ folder
+      - name: Generate the snake game from GitHub contribution grid
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            assets/snake.svg
+            assets/snake-dark.svg?palette=github-dark
+
+      # Step 3: Commit and push changes directly back to main branch
+      - name: Push generated files to main branch
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update snake contribution graph [skip ci]"
+          branch: main
+          file_pattern: 'assets/snake*.svg'
