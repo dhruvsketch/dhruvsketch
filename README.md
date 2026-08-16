@@ -6,7 +6,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/typing-light.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/typing-dark.svg">
-    <img alt="Animated Bio Header" src="./assets/typing-light.svg">
+    <img alt="Animated Bio Header" src="./assets/typing-light.svg" width="560">
   </picture>
 </p>
 
