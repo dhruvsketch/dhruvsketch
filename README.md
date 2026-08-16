@@ -47,7 +47,10 @@
 
 ### GitHub Stats
 
-<img src="./assets/stats.svg" alt="GitHub stats card showing public repo count, followers, and top languages by bytes written." width="500" />
+<div align="center">
+<img src="https://ghstats.dev/api/card?username=dhruvsketch" alt="GitHub Stats Card" />
+<img src="https://ghstats.dev/api/langs?username=dhruvsketch" alt="Top Languages" />
+</div>
 
 <br/><br/>
 
