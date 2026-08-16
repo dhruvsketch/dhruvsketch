@@ -53,7 +53,6 @@
 
 ### Coding Clock
 
-Real commit activity by hour (IST), pulled from public push events and refreshed daily by a scheduled GitHub Action — not static numbers.
 
 <!--START_SECTION:owl-->
 ```text
