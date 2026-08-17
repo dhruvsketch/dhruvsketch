@@ -34,7 +34,7 @@
     <animate attributeName="opacity" to="0" dur="0.01s" begin="grow2.end+1.6s" fill="freeze"/>
     <animate attributeName="opacity" to="1" dur="0.01s" begin="grow1.end+1.6s" fill="freeze"/>
     <text x="0" y="26" font-family="Menlo, Consolas, 'Courier New', monospace" font-size="18" fill="#1F2328">
-      <tspan fill="#00A87D">&gt;</tspan> Bridging AI &amp; Business
+      <tspan fill="##000000">&gt;</tspan> Bridging AI &amp; Business
     </text>
   </g>
 
@@ -42,7 +42,7 @@
     <animate attributeName="opacity" to="0" dur="0.01s" begin="grow3.end+1.6s" fill="freeze"/>
     <animate attributeName="opacity" to="1" dur="0.01s" begin="grow2.end+1.6s" fill="freeze"/>
     <text x="0" y="26" font-family="Menlo, Consolas, 'Courier New', monospace" font-size="18" fill="#1F2328">
-      <tspan fill="#00A87D">&gt;</tspan> Boring ideas just need better branding.
+      <tspan fill="#000000">&gt;</tspan> Boring ideas just need better branding.
     </text>
   </g>
 
