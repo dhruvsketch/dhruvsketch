@@ -1,5 +1,9 @@
 <p align="center">
-  <img src="./assets/banner.svg" alt="Terminal window running a boot sequence: whoami returns Dhruv Jha, a status scan flags a boring idea and applies branding, then deploys the solution." width="100%" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/banner.svg">
+    <img src="./assets/banner.svg" alt="Terminal window running a boot sequence: whoami returns Dhruv Jha, a status scan flags a boring idea and applies branding, then deploys the solution." width="100%" />
+  </picture>
 </p>
 
 <p align="center">
