@@ -68,12 +68,12 @@
 
 <br/>
 
+### Contribution Snake
 <p align="center">
-<summary>Contribution Snake</summary>
 <br/>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dhruvsketch/dhruvsketch/output/snake-dark.svg" />
-  <img src="https://raw.githubusercontent.com/dhruvsketch/dhruvsketch/output/snake.svg" alt="Animated snake eating through Dhruv Jha's GitHub contribution graph." width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dhruvsketch/dhruvsketch/output/snake.svg" />
+  <img src="https://raw.githubusercontent.com/dhruvsketch/dhruvsketch/output/snake-dark.svg" alt="Animated snake eating through Dhruv Jha's GitHub contribution graph." width="100%" />
 </picture>
 <p align="center">
 
